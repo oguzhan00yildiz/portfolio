@@ -23,7 +23,7 @@ const games: IGame[] = [
     users: 10,
     createdAt: "2 Weeks",
     engine: "Unity",
-    src: "/gifs/slug.gif",
+    src: "/portfolio/gifs/slug.gif",
   },
   {
     id: "2",
@@ -33,7 +33,7 @@ const games: IGame[] = [
     users: 500,
     createdAt: "3 Weeks",
     engine: "Unreal Engine",
-    src: "/gifs/mario.gif",
+    src: "/portfolio/gifs/mario.gif",
   },
   {
     id: "3",
@@ -43,7 +43,7 @@ const games: IGame[] = [
     users: 500,
     createdAt: "3 Weeks",
     engine: "Unreal Engine",
-    src: "/gifs/mario.gif",
+    src: "/portfolio/gifs/mario.gif",
   },
 
 ];
