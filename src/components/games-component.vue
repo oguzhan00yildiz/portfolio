@@ -17,13 +17,13 @@ import type {IGame} from "@/models/IGame";
 const games: IGame[] = [
   {
     id: "1",
-    title: "Game 1",
-    subtitle: "Subtitle 1",
-    description: "Description for Game 1",
-    users: 1000,
-    createdAt: "3 Weeks",
+    title: "Slug Wars",
+    subtitle: "Slug Wars multiplayer game",
+    description: "something",
+    users: 10,
+    createdAt: "2 Weeks",
     engine: "Unity",
-    src: "/gifs/mario.gif",
+    src: "/gifs/slug.gif",
   },
   {
     id: "2",
