@@ -1,11 +1,14 @@
 <template>
   <nav
-      class="sticky top-0 w-full px-4 pt-8 pb-4 bg-background z-50">
-    <div class="flex items-start container gap-3 md:justify-between mx-auto flex-col md:flex-row">
+      class="sticky top-0 w-full px-4 pt-4 md:pt-8 pb-4 bg-background z-50">
+    <div class="flex items-start max-w-screen-xl md:px-12 gap-3 md:justify-between mx-auto flex-col md:flex-row">
       <!--    LEFT SIDE -->
-      <div class="space-y-2">
-        <h1 class="text-3xl md:text-5xl text-primary font-bold">Oğuzhan Yıldız</h1>
-        <p class="text-sm md:text-lg text-primary tracking-wider">Game Programmer</p>
+      <div class="">
+        <router-link to="/">
+          <h1 class="text-3xl h-10 md:h-14 md:text-5xl text-transparent bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold">
+            Oğuzhan Yıldız</h1>
+        </router-link>
+        <p class="text-sm md:text-lg text-primary ">Game Programmer</p>
       </div>
       <!--    RIGT SIDE -->
       <div class="flex text-secondary items-center gap-1">
@@ -27,8 +30,7 @@
 </template>
 
 <script lang="ts" setup>
-import {Linkedin, Github, Instagram, Gamepad2} from "lucide-vue-next";
-
+import {Gamepad2, Github, Instagram, Linkedin} from "lucide-vue-next";
 </script>
 
 <style scoped>

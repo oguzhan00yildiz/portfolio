@@ -1,11 +1,11 @@
 <template>
   <div class="group rounded-md overflow-hidden">
-    <router-link :to="`/games/${game.title}`">
+    <router-link :to="`/games/${game.id}`">
       <div class="relative flex flex-col">
         <img :src="game.src" alt="game_gif" class="w-full aspect-video grayscale group-hover:grayscale-0"/>
         <!--      DETAILS-->
         <div
-            class="flex items-center gap-6 justify-start px-5 absolute bottom-0 w-full bg-black bg-opacity-70 h-12 text-white">
+            class="flex items-center gap-6 justify-start px-5 absolute bottom-0 w-full bg-black bg-opacity-70 h-[15%] text-white">
           <!--        DEVELOPER-->
           <div class="flex gap-2 items-center justify-center">
             <Users class="size-5"/>

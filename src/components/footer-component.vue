@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-accent px-4 pb-8 mb-6 md:mb-8">
-    <div class="container mx-auto">
-      <h2 class="text-background text-xl md:text-4xl font-bold py-4">Hi, I'm Oğuzhan</h2>
+  <div id="footer" class="bg-accent px-4 pb-8 mb-6 md:mb-8">
+    <div class="max-w-screen-xl md:px-12 mx-auto">
+      <h2 class="text-background text-xl md:text-3xl font-bold py-4">Hi, I'm Oğuzhan</h2>
       <p class="text-background pl-4 md:text-xl">
         Hello there, I'm Oğuzhan, also known as Ossi, a 24-year-old Game Production student at JAMK University. I am a
         highly motivated and creative individual with a passion for game production. I have completed a degree in

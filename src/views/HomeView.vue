@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col gap-6 md:gap-8 container mx-auto px-4 pb-6 md:pb-8">
+  <main class="flex flex-col gap-6 md:gap-8 max-w-screen-xl md:px-12 mx-auto px-4 pb-6 md:pb-8">
     <!--    AVATAR AND DESCRIPTION-->
     <HeroComponent/>
     <!--    MY PROJECTS-->

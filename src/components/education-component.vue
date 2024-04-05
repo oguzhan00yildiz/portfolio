@@ -1,7 +1,8 @@
 <template>
   <div>
     <!--    TITLE-->
-    <h2 class="text-accent text-2xl md:text-4xl font-bold py-4">Educations</h2>
+    <h2 class="text-transparent inline-block bg-gradient-to-r from-primary to-secondary bg-clip-text text-2xl md:text-3xl font-bold py-4">
+      Educations</h2>
 
     <!--    EDUCATION-->
     <div class="flex flex-col md:flex-row gap-4">

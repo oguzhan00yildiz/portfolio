@@ -1,7 +1,8 @@
 <template>
   <div>
     <!--    TITLE-->
-    <h2 class="text-accent text-2xl md:text-4xl font-bold py-4">My Projects</h2>
+    <h2 class="text-transparent bg-gradient-to-r from-primary inline-block to-secondary bg-clip-text text-2xl md:text-3xl font-bold py-4">
+      My Projects</h2>
 
     <!--    GAMES-->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -12,41 +13,7 @@
 
 <script lang="ts" setup>
 import CardElement from "@/components/card-element.vue";
-import type {IGame} from "@/models/IGame";
-
-const games: IGame[] = [
-  {
-    id: "1",
-    title: "Slug Wars",
-    subtitle: "Slug Wars multiplayer game",
-    description: "something",
-    users: 10,
-    createdAt: "2 Weeks",
-    engine: "Unity",
-    src: "/portfolio/gifs/slug.gif",
-  },
-  {
-    id: "2",
-    title: "Game 2",
-    subtitle: "Subtitle 2",
-    description: "Description for Game 2",
-    users: 500,
-    createdAt: "3 Weeks",
-    engine: "Unreal Engine",
-    src: "/portfolio/gifs/mario.gif",
-  },
-  {
-    id: "3",
-    title: "Game 3",
-    subtitle: "Subtitle 3",
-    description: "Description for Game 3",
-    users: 500,
-    createdAt: "3 Weeks",
-    engine: "Unreal Engine",
-    src: "/portfolio/gifs/mario.gif",
-  },
-
-];
+import {games} from "@/data/games";
 
 
 </script>
