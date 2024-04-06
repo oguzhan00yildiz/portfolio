@@ -10,6 +10,22 @@ export const games: IGame[] = [
     createdAt: "2 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/slug.gif",
+    role: "Game Programmer",
+    details: {
+      about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      introduction: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+      gifs: [
+        "/portfolio/gifs/Gunmergemaster.gif",
+        "/portfolio/gifs/Gunmergemaster.gif",
+        "/portfolio/gifs/Gunmergemaster.gif",
+      ],
+      whatILearned: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+      gifsFooter: [
+        "/portfolio/gifs/Gunmergemaster.gif",
+        "/portfolio/gifs/Gunmergemaster.gif",
+        "/portfolio/gifs/Gunmergemaster.gif",
+      ],
+    },
   },
   {
     id: "2",
@@ -20,6 +36,7 @@ export const games: IGame[] = [
     createdAt: "6 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/Gunmergemaster.gif",
+    role: "Game Programmer",
   },
   {
     id: "3",
@@ -30,8 +47,9 @@ export const games: IGame[] = [
     createdAt: "48 Hours",
     engine: "Unity C#",
     src: "/portfolio/gifs/Royalbanter.gif",
+    role: "Game Programmer",
   },
-  
+
   {
     id: "4",
     title: "Count Masters (Clone)",
@@ -41,6 +59,7 @@ export const games: IGame[] = [
     createdAt: "4 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/Clonemaster.gif",
+    role: "Game Programmer",
   },
   {
     id: "5",
@@ -51,8 +70,9 @@ export const games: IGame[] = [
     createdAt: "1 Week",
     engine: "Unity C#",
     src: "/portfolio/gifs/Spinofthehill.gif",
+    role: "Game Programmer",
   },
- 
+
   {
     id: "6",
     title: "Slice It All (Clone)",
@@ -62,6 +82,7 @@ export const games: IGame[] = [
     createdAt: "2 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/Sliceitall.gif",
+    role: "Game Programmer",
   },
   {
     id: "7",
@@ -72,6 +93,7 @@ export const games: IGame[] = [
     createdAt: "48 Hours",
     engine: "Unity C#",
     src: "/portfolio/gifs/Curebot.gif",
+    role: "Game Programmer",
   },
   {
     id: "8",
@@ -82,6 +104,7 @@ export const games: IGame[] = [
     createdAt: "2 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/Mobcontrol.gif",
+    role: "Game Programmer",
   },
   {
     id: "9",
@@ -92,6 +115,7 @@ export const games: IGame[] = [
     createdAt: "2 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/Coffeestack.gif",
+    role: "Game Programmer",
   },
   {
     id: "10",
@@ -102,6 +126,7 @@ export const games: IGame[] = [
     createdAt: "10 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/Pandorasbox.gif",
+    role: "Game Programmer",
   },
   {
     id: "11",
@@ -112,6 +137,7 @@ export const games: IGame[] = [
     createdAt: "2 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/Tallmanrun.gif",
+    role: "Game Programmer",
   },
   {
     id: "12",
@@ -122,6 +148,7 @@ export const games: IGame[] = [
     createdAt: "1 Week",
     engine: "Unity C#",
     src: "/portfolio/gifs/Atlas.gif",
+    role: "Game Programmer",
   },
 
 ];

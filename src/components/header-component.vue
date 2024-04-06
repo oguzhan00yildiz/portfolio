@@ -11,7 +11,7 @@
         <p class="text-sm md:text-lg text-primary ">Game Programmer</p>
       </div>
       <!--    RIGT SIDE -->
-      <div class="flex text-secondary items-center gap-1">
+      <div class="flex text-secondary items-center gap-2 md:gap-3">
         <a href="https://www.linkedin.com/in/oguzhan00yildiz/" target="_blank">
           <Linkedin class="size-8 md:size-10 hover:text-white transition-colors duration-150"/>
         </a>

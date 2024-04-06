@@ -11,6 +11,7 @@ export default {
         primary: '#8bc5bf',
         secondary: '#edc1c9',
         accent: '#b7dbd8',
+        card: '#232323',
       },
     },
   },

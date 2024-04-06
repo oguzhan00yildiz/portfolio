@@ -1,3 +1,5 @@
+import type {IDetails} from "@/models/IDetails";
+
 export interface IGame {
   id: string,
   title: string;
@@ -7,4 +9,6 @@ export interface IGame {
   createdAt: string;
   engine: string;
   src: string;
+  role: string;
+  details: IDetails
 }

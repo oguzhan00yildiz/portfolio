@@ -5,7 +5,7 @@
       My Projects</h2>
 
     <!--    GAMES-->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row auto-rows-fr gap-4">
       <card-element v-for="(game, index) in games" :key="index" :game="game"/>
     </div>
   </div>
