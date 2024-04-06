@@ -1,0 +1,6 @@
+import{c as i,d,r as m,g as u,a,b as o,w as p,e as t,t as _,f as x,u as f,h,o as l,i as v}from"./index-CYjljjfe.js";/**
+ * @license lucide-vue-next v0.364.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const g=i("ChevronLeftIcon",[["path",{d:"m15 18-6-6 6-6",key:"1wnfg3"}]]),b={class:"flex flex-col gap-3 md:gap-4 max-w-screen-xl md:px-12 mx-auto px-4 pb-6 md:pb-8"},w=t("p",null,"Go Back",-1),y={key:0},k={class:"relative"},C=["alt","src"],B={class:"flex items-center gap-6 justify-start px-5 absolute bottom-0 w-full bg-black bg-opacity-70 h-[15%] text-white"},V={class:"text-xl md:text-3xl font-bold text-primary"},G=d({__name:"GamesView",setup(I){const c=f(),e=m(null),n=c.params.id;return e.value=u.find(s=>s.id===n)||null,(s,L)=>{const r=h("router-link");return l(),a("div",b,[o(r,{class:"text-secondary my-2 md:my-0 md:text-xl hover:text-white flex items-center space-x-1",to:"/"},{default:p(()=>[o(v(g),{class:"md:size-10"}),w]),_:1}),e.value?(l(),a("div",y,[t("div",k,[t("img",{alt:e.value.title,src:e.value.src,class:"w-full aspect-video"},null,8,C),t("div",B,[t("p",V,_(e.value.title),1)])])])):x("",!0)])}}});export{G as default};
