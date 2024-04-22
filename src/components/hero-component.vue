@@ -12,7 +12,7 @@
       organized settings, enjoys working hard, and is good at being a flexible team player, handling challenges with
       humor.
     </p>
-    <ChevronDown class="size-10 md:size-14 animate-bounce"/>
+    <ChevronDown class="size-10 md:size-14 animate-bounce shrink-0"/>
   </div>
 </template>
 
