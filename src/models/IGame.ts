@@ -10,5 +10,5 @@ export interface IGame {
   engine: string;
   src: string;
   role: string;
-  details: IDetails
+  details: IDetails;
 }

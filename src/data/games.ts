@@ -4,38 +4,58 @@ export const games: IGame[] = [
   {
     id: "1",
     title: "Slug Wars",
-    subtitle: "Slug Wars multiplayer game",
-    description: "something",
+    subtitle: "Published on Steam Q1 2025 ",
+    description: "Multiplayer Shooter",
     users: 10,
-    createdAt: "2 Weeks",
+    createdAt: "1 year",
     engine: "Unity C#",
-    src: "/portfolio/gifs/slug.gif",
-    role: "Game Programmer",
+    src: "/portfolio/gifs/slug5.gif",
+    role: "Game Programmer / QA-Test Lead",
     details: {
-      about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      introduction: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+      about: "Slug Wars is a fun, underwater multiplayer shooter where players battle as customizable sea slugs, using power-ups and strategy to dominate vibrant arenas.",
+      introduction: "I am one of the founding members of this project, and I was involved in every aspect, from the initial stages to its release on Steam. My primary role was as a programmer, handling various programming tasks. Additionally, I served as the QA-TEST Lead for the project, organizing multiple testing sessions and ensuring the game's quality before its release on Steam. Alongside this game, we established Hovi Production, which now operates as an official company based in Jyväskylä, Finland.",
       gifs: [
-        "/portfolio/gifs/Gunmergemaster.gif",
-        "/portfolio/gifs/Gunmergemaster.gif",
+        "/portfolio/gifs/slug2.gif",
+        "/portfolio/gifs/slug3.gif",
       ],
-      whatILearned: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+      whatILearned: "I learned multiplayer online programming, effective project planning, and how to ensure quality within a large-scale project. Additionally, I gained experience in managing testing sessions and improving the overall game performance.",
       gifsFooter: [
-        "/portfolio/gifs/Gunmergemaster.gif",
-        "/portfolio/gifs/Gunmergemaster.gif",
-        "/portfolio/gifs/Gunmergemaster.gif",
+        "/portfolio/gifs/slug4.gif",
+        "/portfolio/gifs/slug.gif",
       ],
+      link: {
+        title: "",
+        url: "https://store.steampowered.com/app/3445050/Slug_Wars/",
+      },
+      imageSrc: "/portfolio/public/img/steam.png",
     },
   },
   {
     id: "2",
-    title: "Gun Merge Master (Published)",
-    subtitle: "Published Under Game Factory on Play Store",
+    title: "Gun Merge Master",
+    subtitle: "Published on Play Store",
     description: "Hyper-Casual 3D Mobile Game",
     users: 3,
     createdAt: "6 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/Gunmergemaster.gif",
     role: "Game Programmer",
+    details: {
+      about: "Gun Merge Master is a fast-paced, hyper-casual 3D mobile game where players defeat enemies and merge weapons to create powerful upgrades, progressing through challenging levels with engaging mechanics.",
+      introduction: "I played a key role in the creation of Gun Merge Master, contributing to its design, gameplay mechanics, and overall development process. From initial concept to release, I ensured the game's merging system and combat mechanics were polished and engaging for players. This project reflects my dedication to delivering fun and accessible gaming experiences in the hyper-casual genre.",
+      gifs: [
+        "/portfolio/gifs/Gunmergemaster.gif",
+      ],
+      whatILearned: "With this project, we earned the opportunity to collaborate with GameFactory in Turkey after a long six-month competition and winning period. Following the development of dozens of clone hyper-casual games, Gun Merge Master became our first fully original game concept. I managed the entire project while also designing and programming its core mechanics, which allowed me to refine my skills in both leadership and technical development. This experience was a significant milestone in my career and a testament to our team's ability to create innovative and engaging content.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://play.google.com/store/apps/details?id=com.ShatterPointGames.GunMergeMaster",
+      },
+      imageSrc: "/portfolio/public/img/playstore.png",
+    },
   },
   {
     id: "3",
@@ -47,6 +67,22 @@ export const games: IGame[] = [
     engine: "Unity C#",
     src: "/portfolio/gifs/Royalbanter.gif",
     role: "Game Programmer",
+    details: {
+      about: "Royal Banter is a fun and quirky 2D game where players complete missions to make the king laugh. With a variety of humorous tasks and challenges, this game offers a lighthearted and entertaining experience for players of all ages.",
+      introduction: "Royal Banter was created as part of the Global Game Jam, a 48-hour event that challenges developers to create a game based on a specific theme. In this project, I worked as a game programmer, contributing to the game's mechanics, controls, and overall design. The result was a unique and engaging experience that showcased our team's creativity and collaboration.",
+      gifs: [
+        "/portfolio/gifs/Royalbanter.gif",
+      ],
+      whatILearned: "Participating in the Global Game Jam was an invaluable experience that allowed me to explore new ideas, work under tight deadlines, and collaborate with a diverse team of developers. I learned the importance of creativity, communication, and adaptability in game development, as well as the value of rapid prototyping and iteration. This project helped me grow as a developer and expand my skills in game programming and design.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://oguzhan00yildiz.itch.io/royal-banter",
+      },
+      imageSrc: "/portfolio/public/img/itch.png",
+    },
   },
 
   {
@@ -59,6 +95,22 @@ export const games: IGame[] = [
     engine: "Unity C#",
     src: "/portfolio/gifs/Clonemaster.gif",
     role: "Game Programmer",
+    details: {
+      about: "Count Masters is a fast-paced, hyper-casual 3D mobile game where players compete in exciting battles, using unique characters and abilities to outsmart their opponents and claim victory.",
+      introduction: "Count Masters was developed as part of a qualification process for Game Factory Kuluçka, a game development program in Turkey. In this project, I contributed to the game's design, programming, and overall development process, ensuring that the gameplay mechanics and controls were engaging and intuitive for players. This project reflects my passion for creating fun and accessible gaming experiences in the hyper-casual genre.",
+      gifs: [
+        "/portfolio/gifs/Clonemaster.gif",
+      ],
+      whatILearned: "The development of Count Masters was a challenging yet rewarding experience that allowed me to refine my skills in game programming, design, and project management. I learned the importance of rapid prototyping, user testing, and iteration in creating successful mobile games, as well as the value of collaboration and communication in a team environment. This project was a significant milestone in my career and a testament to my dedication to delivering high-quality gaming experiences.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://github.com/oguzhan00yildiz/Count-Masters--Stickman-Games-Clone-",
+      },
+      imageSrc: "/portfolio/public/img/github.png",
+    },
   },
   {
     id: "5",
@@ -70,8 +122,23 @@ export const games: IGame[] = [
     engine: "Unity C#",
     src: "/portfolio/gifs/Spinofthehill.gif",
     role: "Game Programmer",
+    details: {
+      about: "Spin of the Hill is a challenging 3D base defense game where players must protect their MonaLisa from waves of enemies using tornado abilty.",
+      introduction: "Spin of the Hill was developed as part of a sprint week project at JAMK University of Applied Sciences, where students work together to create a game prototype within a limited timeframe. In this project, I served as a game programmer, contributing to the game's mechanics, controls, and overall design. The result was a unique and engaging experience that showcased our team's creativity and collaboration.",
+      gifs: [
+        "/portfolio/gifs/Spinofthehill.gif",
+      ],
+      whatILearned: "Participating in the sprint week project was a valuable experience that allowed me to work under tight deadlines, collaborate with a diverse team of developers, and create a game prototype from start to finish. I learned the importance of communication, creativity, and adaptability in game development, as well as the value of rapid prototyping and iteration. This project helped me grow as a developer and expand my skills in game programming and design.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://oguzhan00yildiz.itch.io/spin-of-the-hill",
+      },
+      imageSrc: "/portfolio/public/img/itch.png"
   },
-
+},
   {
     id: "6",
     title: "Slice It All (Clone)",
@@ -82,7 +149,24 @@ export const games: IGame[] = [
     engine: "Unity C#",
     src: "/portfolio/gifs/Sliceitall.gif",
     role: "Game Programmer",
+    details: {
+      about: "Slice It All is a fast-paced, hyper-casual 3D mobile game where players slice through objects to clear the path and reach the finish line, using precision and timing to achieve high scores and unlock new levels.",
+      introduction: "Slice It All was developed as part of a collaboration with Game Factory Kuluçka, a game development program in Turkey. In this project, I contributed to the game's design, programming, and overall development process, ensuring that the slicing mechanics and level design were engaging and challenging for players. This project reflects my commitment to creating fun and accessible gaming experiences in the hyper-casual genre.",
+      gifs: [
+        "/portfolio/gifs/Sliceitall.gif",
+      ],
+      whatILearned: "In this project, I learned how to fully utilize the game engine in alignment with the competition jury's specific requirements. I successfully replicated a highly specific mechanic, showcasing my ability to adapt and implement detailed gameplay features with precision.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://github.com/oguzhan00yildiz/SliceItAll3D-Clone"
+        },
+        imageSrc: "/portfolio/public/img/github.png"
+        },
   },
+
   {
     id: "7",
     title: "Cure Bot Game-Jam Project",
@@ -93,6 +177,22 @@ export const games: IGame[] = [
     engine: "Unity C#",
     src: "/portfolio/gifs/Curebot.gif",
     role: "Game Programmer",
+    details: {
+      about: "Cure Bot is a story-driven puzzle game where players guide a robot named EVOC-004 through a series of challenging levels, using logic and problem-solving skills to overcome obstacles and complete the journey.",
+      introduction: "Cure Bot was created as part of the EXPA Game Jam, a 48-hour event that challenges developers to create a game based on a specific theme. In this project, I worked as a game programmer, contributing to the game's mechanics, controls, and overall design. The result was a unique and engaging experience that showcased our team's creativity and collaboration.",
+      gifs: [
+        "/portfolio/gifs/Curebot.gif",
+      ],
+      whatILearned: "Participating in the EXPA Game Jam was an invaluable experience that allowed me to explore new ideas, work under tight deadlines, and collaborate with a diverse team of developers. I learned the importance of creativity, communication, and adaptability in game development, as well as the value of rapid prototyping and iteration. This project helped me grow as a developer and expand my skills in game programming and design.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://oguzhan00yildiz.itch.io/curebot",
+      },
+      imageSrc: "/portfolio/public/img/itch.png",
+    },
   },
   {
     id: "8",
@@ -104,7 +204,23 @@ export const games: IGame[] = [
     engine: "Unity C#",
     src: "/portfolio/gifs/Mobcontrol.gif",
     role: "Game Programmer",
+    details: {
+      about: "Mob Control is a fast-paced, hyper-casual 3D mobile game where players control a mob of characters, navigating through challenging levels and obstacles to reach the finish line and achieve high scores.",
+      introduction: "Mob Control was developed as part of a collaboration with Game Factory Kuluçka, a game development program in Turkey. In this project, I contributed to the game's design, programming, and overall development process, ensuring that the mob control mechanics and level design were engaging and challenging for players. This project reflects my dedication to creating fun and accessible gaming experiences in the hyper-casual genre.",
+      gifs: [
+        "/portfolio/gifs/Mobcontrol.gif",
+      ],
+      whatILearned: "In this project, I learned how to create dynamic and engaging gameplay mechanics that challenge players to think strategically to achieve their goals. I also gained experience in optimizing game performance and balancing difficulty levels to create a satisfying and rewarding player experience. This project was a valuable learning experience that helped me grow as a developer and refine my skills in game programming and design.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://github.com/oguzhan00yildiz/Mob-Control-Clone",
+      },
+      imageSrc: "/portfolio/public/img/github.png",
   },
+},
   {
     id: "9",
     title: "Coffee Stack (Clone)",
@@ -115,6 +231,22 @@ export const games: IGame[] = [
     engine: "Unity C#",
     src: "/portfolio/gifs/Coffeestack.gif",
     role: "Game Programmer",
+    details: {
+      about: "Coffee Stack is a fast-paced, hyper-casual 3D mobile game where players stack coffee cups to create line, using precision and timing to reach new lengths and achieve high scores.",
+      introduction: "Coffee Stack was developed as part of a collaboration with Game Factory Kuluçka, a game development program in Turkey. In this project, I contributed to the game's design, programming, and overall development process, ensuring that the stacking mechanics and level design were engaging and challenging for players. This project reflects my commitment to creating fun and accessible gaming experiences in the hyper-casual genre.",
+      gifs: [
+        "/portfolio/gifs/Coffeestack.gif",
+      ],
+      whatILearned: "In this project, I learned how to create engaging and challenging gameplay mechanics that test players' precision and timing skills. I also gained experience in designing levels that increase in difficulty and complexity, providing a rewarding and satisfying player experience. This project was a valuable learning experience that helped me refine my skills in game programming and design.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://github.com/oguzhan00yildiz/Coffee-Stack-Clone",
+      },
+      imageSrc: "/portfolio/public/img/github.png",
+    },
   },
   {
     id: "10",
@@ -126,6 +258,22 @@ export const games: IGame[] = [
     engine: "Unity C#",
     src: "/portfolio/gifs/Pandorasbox.gif",
     role: "Game Programmer",
+    details: {
+      about: "Pandora's Box is a challenging 2D rogue-like game where players explore a procedurally generated dungeon, battling enemies and collecting loot to unlock new abilities and progress through the levels.",
+      introduction: "Pandora's Box was developed as part of a game programming course at JAMK University of Applied Sciences, where students work together to create a game prototype within a limited timeframe. In this project, I served as a game programmer, contributing to the game's mechanics, controls, and overall design. The result was a unique and engaging experience that showcased our team's creativity and collaboration.",
+      gifs: [
+        "/portfolio/gifs/Pandorasbox.gif",
+      ],
+      whatILearned: "Participating in the game programming course was a valuable experience that allowed me to improve my skills in game programming, design, and project management.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "",
+      },
+      imageSrc: "",
+    },
   },
   {
     id: "11",
@@ -136,7 +284,23 @@ export const games: IGame[] = [
     createdAt: "2 Weeks",
     engine: "Unity C#",
     src: "/portfolio/gifs/Tallmanrun.gif",
-    role: "Game Programmer",
+    role: "Game Programmer", 
+    details: {
+      about: "Tall Man Run is a fast-paced, hyper-casual 3D mobile game where players control a Stickman character, dodging obstacles and collecting coins to reach the finish line while growing or loosing mess and achieve high scores.",
+      introduction:"Tall Man Run was developed as part of a collaboration with Game Factory Kuluçka, a game development program in Turkey. In this project, I contributed to the game's design, programming, and overall development process, ensuring that the running and resizing mechanics and level design were engaging and challenging for players. This project reflects my dedication to creating fun and accessible gaming experiences in the hyper-casual genre.",
+      gifs: [
+        "/portfolio/gifs/Tallmanrun.gif",
+      ],
+      whatILearned: "In this project, I learned how to create engaging and challenging gameplay mechanics that test players' reflexes and coordination skills. I also gained experience in designing levels that increase in difficulty and complexity, providing a rewarding and satisfying player experience. This project was a valuable learning experience that helped me refine my skills in game programming and design.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://github.com/oguzhan00yildiz/Tall-Man-Run-Clone",
+      },
+      imageSrc: "/portfolio/public/img/github.png",
+    },
   },
   {
     id: "12",
@@ -148,6 +312,22 @@ export const games: IGame[] = [
     engine: "Unity C#",
     src: "/portfolio/gifs/Atlas.gif",
     role: "Game Programmer",
+    details: {
+      about: "Atlas is a 2D tower build mobile game where players build towers to get the highest score and try to ensure the balance of the tower.",
+      introduction: "Atlas was developed as part of a project to graduate from a vocational school, where students could choose their own project idea and work on it for a limited time. In this project, I went solo and made everything from scratch, including the game's mechanics, controls, and overall design and game's lore. The result was a unique and engaging experience that showcased my creativity and dedication to creating fun and challenging gaming experiences.",
+      gifs:[
+      "/portfolio/gifs/Atlas.gif",
+      ],
+      whatILearned: "Participating in the graduation project was a valuable experience that allowed me to improve my skills in game programming, design, and project management. I learned the importance of time management, planning, and execution in creating a successful game prototype, as well as the value of creativity and innovation in game development. This project was a significant milestone in my career and a testament to my dedication to delivering high-quality gaming experiences.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://github.com/oguzhan00yildiz/Atlas-2D-Tower-Build-Mobile-Game",
+      },
+      imageSrc: "/portfolio/public/img/github.png",
+    },
   },
 
 ];

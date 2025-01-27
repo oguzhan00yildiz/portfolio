@@ -28,6 +28,11 @@
         <div class="bg-card p-4 flex-1 space-y-4 rounded-md ">
           <h2 class="text-lg md:text-2xl font-semibold md:my-4">About</h2>
           <p class="text-sm md:text-base">{{ game.details.about }}</p>
+          <div class="link text-xs md:text-sm text-primary">
+            <a :href="game.details?.link?.url" target="_blank" rel="noopener noreferrer">{{ game.details?.link?.title }} 
+              <img :src="game.details.imageSrc" alt="" />  
+            </a>
+        </div>
         </div>
         <!--      PROJECT INFO -->
         <div class="bg-card p-4 flex-1 space-y-4 rounded-md">
