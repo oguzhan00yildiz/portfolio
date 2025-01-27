@@ -21,7 +21,7 @@ export const games: IGame[] = [
       whatILearned: "I learned multiplayer online programming, effective project planning, and how to ensure quality within a large-scale project. Additionally, I gained experience in managing testing sessions and improving the overall game performance.",
       gifsFooter: [
         "/portfolio/gifs/slug4.gif",
-        "/portfolio/gifs/slug.gif",
+        "/portfolio/gifs/slug5.gif",
       ],
       link: {
         title: "",
