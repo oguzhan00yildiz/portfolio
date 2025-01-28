@@ -14,6 +14,13 @@ const router = createRouter({
       name: "games",
       component: () => import("../views/GamesView.vue"),
     },
+
+    // Not found
+    {
+      path: "/:pathMatch(.*)*",
+      name: "not-found",
+      component: () => import("../views/NotFoundView.vue"),
+    }
   ],
 });
 
