@@ -5,7 +5,7 @@ export const games: IGame[] = [
     id: "1",
     title: "Slug Wars",
     subtitle: "Published on Steam Q1 2025 ",
-    description: "Multiplayer Shooter",
+    description: "Online Multiplayer Shooter Game",
     users: 10,
     createdAt: "1 year",
     engine: "Unity C#",
@@ -57,6 +57,92 @@ export const games: IGame[] = [
       imageSrc: "/portfolio/img/playstore.png",
     },
   },
+  
+  {
+    id: "13",
+    title: "Maiden Mystery / Kilpineidon Tarina",
+    subtitle: "Made for Jyvälän Setlementti",
+    description: "Web-GL based Interactive Puzzle Game",
+    users: 6,
+    createdAt: "1-2 Months",
+    engine: "Unity C#",
+    src: "/portfolio/gifs/maidenmystery.gif",
+    role: "Game Programmer / Publisher",
+    details: {
+      about: "Maiden Mystery is an interactive web-based puzzle game where players needs to walk in the Jyväskylä city and solve riddles and uncover clues to unravel the mystery of a missing person. With engaging puzzles and a captivating storyline, this game offers a unique and immersive experience for players of all ages.",
+      introduction: "Maiden Mystery was created as part of a collaboration with Jyvälän Setlementti, a local organization in Jyväskylä, Finland. The game leaded players to a mystery room after each game. In this project, I served as a game programmer and publisher, contributing to the game's mechanics, controls, and overall design. The result was an interactive and engaging experience that showcased our team's creativity and storytelling abilities.",
+      gifs: [
+        "/portfolio/gifs/maidenmystery.gif",
+      ],
+      whatILearned: "For this project I needed to use Web-GL and Unity to create a web-based game because of the target group as my customer wished. I learned how to optimize the game for web-based platforms and ensure a smooth and engaging player experience. This project was a valuable learning experience that helped me grow as a developer and refine my skills in game programming and design.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://oguzhan00yildiz.itch.io/maidenmystery",
+      },
+      imageSrc: "/portfolio/img/itch.png",
+    },
+  },
+
+  {
+    id: "14",
+    title: "Haloween Maddness",
+    subtitle: "Do not let the monsters to get you",
+    description: "#BIT-Jam Project 2D Game",
+    users: 5,
+    createdAt: "48 Hours",
+    engine: "Unity C#",
+    src: "/portfolio/gifs/halloweenmadness.gif",
+    role: "Game Programmer",
+    details: {
+      about: "Halloween Madness is a Game-Jam project where players need to survive from monsters through the halloween night. With Plants vs Zombies mechanics, this game offers a lighthearted and entertaining experience for players of all ages.",
+      introduction: "Halloween Madness was created as part of the BIT-Jam, a 48-hour event that challenges developers to create a game based on a specific theme. In this project, I worked as a game programmer, contributing to the game's mechanics, controls, and overall design. The result was a unique and engaging experience that showcased our team's creativity and collaboration.",
+      gifs: [
+        "/portfolio/gifs/halloweenmadness.gif",
+      ],
+      whatILearned: "In this project, my goal was to work as systematically as possible with my friends within a 48-hour game jam and write optimized and clean code. We planned properly and completed all the steps despite the limited time, and our game was successful.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://oguzhan00yildiz.itch.io/halloween-madness",
+      },
+      imageSrc: "/portfolio/img/itch.png",
+    },
+  },
+
+  {
+    id: "15",
+    title: "Hissi Poika Simulator", 
+    subtitle: "Take on the role of the best Hissipoika in Finland and manage the skilifts.",
+    description: "#Godot Engine #GameJam 2D Game",
+    users: 5,
+    createdAt: "48 Hours",
+    engine: "Godot GDScript",
+    src: "/portfolio/gifs/hissipoika.gif",
+    role: "Game Programmer",
+    details: {
+      about: "Hissi Poika Simulator is a 2D game where players take on the role of a skilift operator and manage the skilifts to ensure the satisfaction of the customers.",
+      introduction: "Hissi Poika Simulator was created as part of a Game Jam, I worked as a game programmer, contributing to the game's mechanics and controls. Me and my friends were happy with the result.",
+      gifs: [
+        "/portfolio/gifs/hissipoika.gif",
+      ],
+      whatILearned: "In this project, I learned how to work with Godot Engine and how to create a 2D game with it. It was my first time to use the engine and the language, and I was happy with the result.",
+      gifsFooter: [
+        
+      ],
+      link: {
+        title: "",
+        url: "https://giacomo-trenna.itch.io/hissipoika-simulator",
+      },
+      imageSrc: "/portfolio/img/itch.png",
+    },
+  },
+
+
   {
     id: "3",
     title: "Royal Banter Game-Jam Project",

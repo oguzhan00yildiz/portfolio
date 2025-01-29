@@ -10,9 +10,8 @@
     </div>
     <p
       class="py-1 text-xl md:text-2xl xl:text-4xl text-center text-transparent bg-gradient-to-r from-primary to-secondary bg-clip-text font-light inline-block">
-      Game programmer. Studying at JAMK University in Finland to turn his hobby into a profession who likes working in
-      organized settings, enjoys working hard, and is good at being a flexible team player, handling challenges with
-      humor.
+      Game programmer. Studying at JAMK University in Finland to turn his hobby into a profession. Co-founder and QA-Test Lead
+       at the newly established Hovi Production. Enjoys working in organized settings, working hard, and being a flexible team player, handling challenges with humor.
     </p>
     <ChevronDown class="size-10 md:size-14 animate-bounce shrink-0" />
   </div>
