@@ -27,7 +27,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://store.steampowered.com/app/3445050/Slug_Wars/",
       },
-      imageSrc: "/portfolio/public/img/steam.png",
+      imageSrc: "/portfolio/img/steam.png",
     },
   },
   {
@@ -54,7 +54,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://play.google.com/store/apps/details?id=com.ShatterPointGames.GunMergeMaster",
       },
-      imageSrc: "/portfolio/public/img/playstore.png",
+      imageSrc: "/portfolio/img/playstore.png",
     },
   },
   {
@@ -81,7 +81,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://oguzhan00yildiz.itch.io/royal-banter",
       },
-      imageSrc: "/portfolio/public/img/itch.png",
+      imageSrc: "/portfolio/img/itch.png",
     },
   },
 
@@ -109,7 +109,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://github.com/oguzhan00yildiz/Count-Masters--Stickman-Games-Clone-",
       },
-      imageSrc: "/portfolio/public/img/github.png",
+      imageSrc: "/portfolio/img/github.png",
     },
   },
   {
@@ -136,7 +136,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://oguzhan00yildiz.itch.io/spin-of-the-hill",
       },
-      imageSrc: "/portfolio/public/img/itch.png"
+      imageSrc: "/portfolio/img/itch.png"
   },
 },
   {
@@ -163,7 +163,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://github.com/oguzhan00yildiz/SliceItAll3D-Clone"
         },
-        imageSrc: "/portfolio/public/img/github.png"
+        imageSrc: "/portfolio/img/github.png"
         },
   },
 
@@ -191,7 +191,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://oguzhan00yildiz.itch.io/curebot",
       },
-      imageSrc: "/portfolio/public/img/itch.png",
+      imageSrc: "/portfolio/img/itch.png",
     },
   },
   {
@@ -218,7 +218,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://github.com/oguzhan00yildiz/Mob-Control-Clone",
       },
-      imageSrc: "/portfolio/public/img/github.png",
+      imageSrc: "/portfolio/img/github.png",
   },
 },
   {
@@ -245,7 +245,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://github.com/oguzhan00yildiz/Coffee-Stack-Clone",
       },
-      imageSrc: "/portfolio/public/img/github.png",
+      imageSrc: "/portfolio/img/github.png",
     },
   },
   {
@@ -299,7 +299,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://github.com/oguzhan00yildiz/Tall-Man-Run-Clone",
       },
-      imageSrc: "/portfolio/public/img/github.png",
+      imageSrc: "/portfolio/img/github.png",
     },
   },
   {
@@ -326,7 +326,7 @@ export const games: IGame[] = [
         title: "",
         url: "https://github.com/oguzhan00yildiz/Atlas-2D-Tower-Build-Mobile-Game",
       },
-      imageSrc: "/portfolio/public/img/github.png",
+      imageSrc: "/portfolio/img/github.png",
     },
   },
 
